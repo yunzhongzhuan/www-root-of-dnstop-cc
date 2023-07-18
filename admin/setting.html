@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>System</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="plug-in\font-awesome-4.7.0\css\font-awesome.min.css" />
+	</head>
+	<body>
+
+		<div class="nav" id="nav">
+			<div class="nav-scroll">
+				<div class="nav-items">
+					<div class="nav-item" id="hide-nav-button">
+						<i class="fa fa-chevron-circle-left"></i>
+						<span>收起</span>
+					</div>
+					
+					<div class="nav-item" id="nav-home-button" title="欢迎页面">
+						<i class="fa fa-home"></i>
+						<span>首页</span>
+					</div>
+
+					<div class="nav-item" id="nav-users-button" title="用户管理">
+						<i class="fa fa-users"></i>
+						<span>用户</span>
+					</div>
+
+					<div class="nav-item nav-item-selected" id="nav-setting-button" title="系统设置">
+						<i class="fa fa-cog"></i>
+						<span>设置</span>
+					</div>
+					<!--</div>-->
+
+					<div class="nav-item" id="nav-exit-button" title="退出登录">
+						<i class="fa fa-sign-out"></i>
+						<span>退出</span>
+					</div>
+					<div class="nav-item" id="nav-top-button" title="返回顶部">
+						<i class="fa fa-arrow-circle-up"></i>
+						<span>顶部</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="body-body">
+
+			<div class="setting">
+
+				<div class="setting-main">
+
+					<div class="setting-main-h1">
+
+						网站标题
+
+					</div>
+					
+					<div class="body-nav-search-button setting-main-h1-button" id="save-title-button"  >
+
+						保存
+
+					</div>
+
+					<div class="setting-main-input">
+
+						<input type="text" placeholder="网站标题" id="setting-main-input-input" />
+
+					</div>
+
+					<div class="setting-main-h1">
+
+						是否允许新用户注册？
+
+					</div>
+					
+					<div class="body-nav-search-button setting-main-h1-button" id="save-register-allow-button" >
+
+						保存
+
+					</div>
+
+					<div class="setting-main-select-list-items setting-main-select-list-items-locked" id="setting-main-select-list-items">
+
+						<div class="setting-main-select-list-items-h1">禁止</div>
+
+					</div>
+					
+					
+					
+
+					<div class="setting-main-h1">
+
+						是否允许文件直链被直接浏览？
+
+					</div>
+					
+					<div style="line-height: 2;padding: 0 0 15px 0;width: calc(100% - 180px);margin: 0 150px 0 30px;color: #666;">如果允许文件可以被直接浏览，即浏览器访问地址后，直接显示内容或下载内容。如果禁止直接浏览，则文件默认会以下载的方式运行，或直链只能用于视频播放/音频播放/图片显示。</div>
+					
+					<div class="body-nav-search-button setting-main-h1-button" id="save-preview-allow-button" >
+
+						保存
+
+					</div>
+
+					<div class="setting-main-select2-list-items setting-main-select2-list-items-locked" id="setting-main-select2-list-items">
+
+						<div class="setting-main-select2-list-items-h1">禁止</div>
+
+					</div>
+					
+					
+					
+
+					<div class="setting-main-h1">
+
+						允许使用直链域名列表（白名单）
+
+					</div>
+					
+					<div style="line-height: 2;padding: 0 0 15px 0;width: calc(100% - 180px);margin: 0 150px 0 30px;color: #666;">允许哪些网站调用文件下载或直链媒体播放/音频播放/图片显示。</div>
+
+					<div class="body-nav-search-button setting-main-h1-button" id="new-pass-domain-name-button" >
+
+						添加
+
+					</div>
+
+					<div class="setting-main-order-list-items" id="setting-main-order-list-items">
+					    
+					    
+					    
+					    <!--
+					    
+					    <div class="setting-main-order-list-item">
+							www.yunzhongzhuan.com <span class="setting-main-order-list-item-remove-button"><i class="fa fa-trash"></i>删除</span>
+						</div>
+
+						<div class="setting-main-order-list-item" title="点击移除">
+							www.yunzhongzhuan.com
+						</div>
+						<div class="setting-main-order-list-item" title="点击移除">
+							www.v2ex.com
+						</div>
+						<div class="setting-main-order-list-item" title="点击移除">
+							github.com
+						</div>
+						<div class="setting-main-order-list-item" title="点击移除">
+							www.bilibili.com
+						</div>
+						
+						-->
+
+					</div>
+					
+					
+
+					
+					<!--
+
+					<div class="body-nav-search-button setting-main-h1-button"  >
+
+						添加
+
+					</div>
+
+					<div class="setting-main-order-list-items">
+
+						<div class="setting-main-order-list-item" title="点击移除">
+							www.baidu.com
+						</div>
+
+					</div>
+					
+					-->
+
+					<div class="block-height-100px"></div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<div id="setting-html"></div>
+		<script type="text/javascript" src="js/sweetalert.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
+</html>
